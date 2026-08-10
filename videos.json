@@ -225,7 +225,112 @@
     "João": {},
     "Atos": {},
     "Romanos": {},
-    "1 Coríntios": {},
+    "1 Coríntios": {
+        "1": [
+            {
+                "titulo": "Panorama Geral",
+                "url": "https://youtu.be/1qtR8QDELkY"
+            },
+            {
+                "titulo": "Capítulo 1",
+                "url": "https://youtu.be/WNJ6oVIrCeU"
+            }
+        ],
+        "2": [
+            {
+                "titulo": "Capítulo 2",
+                "url": "https://youtu.be/r8gkGxL0cfY"
+            }
+        ],
+        "3": [
+            {
+                "titulo": "Capítulo 3",
+                "url": "https://youtu.be/hCEyoKNjyIg"
+            }
+        ],
+        "4": [
+            {
+                "titulo": "Capítulo 4",
+                "url": ""
+            }
+        ],
+        "5": [
+            {
+                "titulo": "Capítulo 5",
+                "url": ""
+            }
+        ],
+        "6": [
+            {
+                "titulo": "Capítulo 6",
+                "url": ""
+            }
+        ],
+        "7": [
+            {
+                "titulo": "Capítulo 7",
+                "url": "https://youtu.be/MNVvZKZjEfw"
+            }
+        ],
+        "8": [
+            {
+                "titulo": "Capítulo 8",
+                "url": "https://youtu.be/sRp_9qOqfu8"
+            }
+        ],
+        "9": [
+            {
+                "titulo": "Capítulo 9",
+                "url": "https://youtu.be/BTldY-ut1J0"
+            }
+        ],
+        "10": [
+            {
+                "titulo": "Capítulo 10",
+                "url": "https://youtu.be/PSbNN9MTDpE"
+            }
+        ],
+        "11": [
+            {
+                "titulo": "Capítulo 11",
+                "url": "https://youtu.be/1gu3_9zJaUs"
+            }
+        ],
+        "12": [
+            {
+                "titulo": "Capítulo 12",
+                "url": "https://youtu.be/7RFbgiuwBCo"
+            }
+        ],
+        "13": [
+            {
+                "titulo": "Capítulo 13",
+                "url": "https://youtu.be/LLmlckx12hk"
+            }
+        ],
+        "14": [
+            {
+                "titulo": "Capítulo 14 - Parte 1",
+                "url": "https://youtu.be/sR15vlH2wEk"
+            },
+            {
+                "titulo": "Capítulo 14 - Parte 2",
+                "url": "https://youtu.be/1cq_dfxzkFg"
+            }
+        ],
+        "15": [
+            {
+                "titulo": "Capítulo 15",
+                "url": "https://youtu.be/PyJ8YubrkRc"
+            }
+        ],
+        "16": [
+            {
+                "titulo": "Capítulo 16",
+                "url": "https://youtu.be/AVBvW38TlN8"
+            }
+        ]
+    },
     "2 Coríntios": {
         "1": [
             {
