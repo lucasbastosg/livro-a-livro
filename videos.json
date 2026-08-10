@@ -419,6 +419,13 @@
             }
         ]
     },
-    "Judas": {},
+    "Judas": {
+        "1": [
+            {
+                "titulo": "Capítulo 1",
+                "url": "https://youtu.be/5-UWOe5rsIU"
+            }
+        ]
+    },
     "Apocalipse": {}
 }
