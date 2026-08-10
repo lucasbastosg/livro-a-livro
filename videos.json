@@ -357,7 +357,38 @@
             }
         ]
     },
-    "1 Pedro": {},
+    "1 Pedro": {
+        "1": [
+            {
+                "titulo": "Capítulo 1",
+                "url": "https://youtu.be/nlm4lRuBCPU"
+            }
+        ],
+        "2": [
+            {
+                "titulo": "Capítulo 2",
+                "url": "https://youtu.be/3ZO10Mc9dso"
+            }
+        ],
+        "3": [
+            {
+                "titulo": "Capítulo 3",
+                "url": "https://youtu.be/o_ZYHp50WIY"
+            }
+        ],
+        "4": [
+            {
+                "titulo": "Capítulo 4",
+                "url": "https://youtu.be/0F_Ef3hsfFA"
+            }
+        ],
+        "5": [
+            {
+                "titulo": "Capítulo 5",
+                "url": "https://youtu.be/wtEi3aivis4"
+            }
+        ]
+    },
     "2 Pedro": {},
     "1 João": {
         "1": [
