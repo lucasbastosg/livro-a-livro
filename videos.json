@@ -230,7 +230,36 @@
     "Gálatas": {},
     "Efésios": {},
     "Filipenses": {},
-    "Colossenses": {},
+    "Colossenses": {
+        "1": [
+            {
+                "titulo": "Panorama Geral",
+                "url": "https://youtu.be/kWb8hKYDJWw"
+            },
+            {
+                "titulo": "Capítulo 1",
+                "url": "https://youtu.be/qc-sC1nm6kI"
+            }
+        ],
+        "2": [
+            {
+                "titulo": "Capítulo 2",
+                "url": "https://youtu.be/46fpuXaA_Oc"
+            }
+        ],
+        "3": [
+            {
+                "titulo": "Capítulo 3",
+                "url": "https://youtu.be/eK9xs1saKMs"
+            }
+        ],
+        "4": [
+            {
+                "titulo": "Capítulo 4",
+                "url": "https://youtu.be/daHulAesndA"
+            }
+        ]
+    },
     "1 Tessalonicenses": {
         "1": [
             {
