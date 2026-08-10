@@ -233,7 +233,52 @@
     "Colossenses": {},
     "1 Tessalonicenses": {},
     "2 Tessalonicenses": {},
-    "1 Timóteo": {},
+    "1 Timóteo": {
+        "1": [
+            {
+                "titulo": "Panorama Geral",
+                "url": "https://youtu.be/JqYabyyAtuU"
+            },
+            {
+                "titulo": "Capítulo 1",
+                "url": "https://youtu.be/_EXcSqu4jjo"
+            }
+        ],
+        "2": [
+            {
+                "titulo": "Capítulo 2 - Parte 1",
+                "url": "https://youtu.be/9TLo3kXjHkI"
+            },
+            {
+                "titulo": "Capítulo 2 - Parte 2",
+                "url": "https://youtu.be/rvgEVxNX_Bk"
+            }
+        ],
+        "3": [
+            {
+                "titulo": "Capítulo 3",
+                "url": "https://youtu.be/VMTWOw5EG2A"
+            }
+        ],
+        "4": [
+            {
+                "titulo": "Capítulo 4",
+                "url": "https://youtu.be/PjJH2VftNiU"
+            }
+        ],
+        "5": [
+            {
+                "titulo": "Capítulo 5",
+                "url": "https://youtu.be/K2m41SmTyKI"
+            }
+        ],
+        "6": [
+            {
+                "titulo": "Capítulo 6",
+                "url": "https://youtu.be/1weFmbOULHA"
+            }
+        ]
+    },
     "2 Timóteo": {
         "1": [
             {
