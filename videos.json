@@ -237,7 +237,90 @@
     "2 Timóteo": {},
     "Tito": {},
     "Filemom": {},
-    "Hebreus": {},
+    "Hebreus": {
+        "1": [
+            {
+                "titulo": "Panorama Geral",
+                "url": "https://youtu.be/Tp-rARNOkKQ"
+            },
+            {
+                "titulo": "Capítulo 1",
+                "url": "https://youtu.be/_mITXS5UJEk"
+            }
+        ],
+        "2": [
+            {
+                "titulo": "Capítulo 2",
+                "url": "https://youtu.be/mqhcnPaisco"
+            }
+        ],
+        "3": [
+            {
+                "titulo": "Capítulo 3",
+                "url": "https://youtu.be/gypzLHXvzZo"
+            }
+        ],
+        "4": [
+            {
+                "titulo": "Capítulo 4",
+                "url": "https://youtu.be/aes5lropydA"
+            }
+        ],
+        "5": [
+            {
+                "titulo": "Capítulo 5",
+                "url": "https://youtu.be/HW8uD_QbPdw"
+            }
+        ],
+        "6": [
+            {
+                "titulo": "Capítulo 6",
+                "url": "https://youtu.be/v0nFtvcjSI8"
+            }
+        ],
+        "7": [
+            {
+                "titulo": "Capítulo 7",
+                "url": "https://youtu.be/ZVLdzbVH23Q"
+            }
+        ],
+        "8": [
+            {
+                "titulo": "Capítulo 8",
+                "url": "https://youtu.be/8wGUOi2MUu4"
+            }
+        ],
+        "9": [
+            {
+                "titulo": "Capítulo 9",
+                "url": "https://youtu.be/f95IwAL6aU0"
+            }
+        ],
+        "10": [
+            {
+                "titulo": "Capítulo 10",
+                "url": "https://youtu.be/L75Am0SWkJI"
+            }
+        ],
+        "11": [
+            {
+                "titulo": "Capítulo11",
+                "url": "https://youtu.be/A2XV3-_5RtA"
+            }
+        ],
+        "12": [
+            {
+                "titulo": "Capítulo 12",
+                "url": "https://youtu.be/LhZpkuAFuI4"
+            }
+        ],
+        "13": [
+            {
+                "titulo": "Capítulo 13",
+                "url": "https://youtu.be/bs7pYhUcs-k"
+            }
+        ]
+    },
     "Tiago": {},
     "1 Pedro": {},
     "2 Pedro": {},
