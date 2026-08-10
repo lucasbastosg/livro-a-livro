@@ -389,7 +389,26 @@
             }
         ]
     },
-    "2 Pedro": {},
+    "2 Pedro": {
+        "1": [
+            {
+                "titulo": "Capítulo 1",
+                "url": "https://youtu.be/pu7148JmqZo"
+            }
+        ],
+        "2": [
+            {
+                "titulo": "Capítulo 2",
+                "url": "https://youtu.be/hEyUzLMea8I"
+            }
+        ],
+        "3": [
+            {
+                "titulo": "Capítulo 3",
+                "url": "https://youtu.be/fHcFArR-qc4"
+            }
+        ]
+    },
     "1 João": {
         "1": [
             {
