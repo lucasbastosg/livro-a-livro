@@ -234,7 +234,36 @@
     "1 Tessalonicenses": {},
     "2 Tessalonicenses": {},
     "1 Timóteo": {},
-    "2 Timóteo": {},
+    "2 Timóteo": {
+        "1": [
+            {
+                "titulo": "Panorama Geral",
+                "url": "https://youtu.be/2gI3JZhwM38"
+            },
+            {
+                "titulo": "Capítulo 1",
+                "url": "https://youtu.be/xcr1h0wd-jw"
+            }
+        ],
+        "2": [
+            {
+                "titulo": "Capítulo 2",
+                "url": "https://youtu.be/aq99rnAQUhY"
+            }
+        ],
+        "3": [
+            {
+                "titulo": "Capítulo 3",
+                "url": "https://youtu.be/tIW5klsuy6Y"
+            }
+        ],
+        "4": [
+            {
+                "titulo": "Capítulo 4",
+                "url": "https://youtu.be/4pmQfwhcBfw"
+            }
+        ]
+    },
     "Tito": {
         "1": [
             {
