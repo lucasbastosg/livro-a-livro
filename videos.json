@@ -229,7 +229,36 @@
     "2 Coríntios": {},
     "Gálatas": {},
     "Efésios": {},
-    "Filipenses": {},
+    "Filipenses": {
+        "1": [
+            {
+                "titulo": "Panorama Geral",
+                "url": "https://youtu.be/WCCCY8SlNHY"
+            },
+            {
+                "titulo": "Capítulo 1",
+                "url": "https://youtu.be/0Rt9cR1fKbI"
+            }
+        ],
+        "2": [
+            {
+                "titulo": "Capítulo 2",
+                "url": "https://youtu.be/cSJJZq2aiaE"
+            }
+        ],
+        "3": [
+            {
+                "titulo": "Capítulo 3",
+                "url": ""
+            }
+        ],
+        "4": [
+            {
+                "titulo": "Capítulo 4",
+                "url": "https://youtu.be/t7LR3dF-rjk"
+            }
+        ]
+    },
     "Colossenses": {
         "1": [
             {
