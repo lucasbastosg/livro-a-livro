@@ -226,7 +226,90 @@
     "Atos": {},
     "Romanos": {},
     "1 Coríntios": {},
-    "2 Coríntios": {},
+    "2 Coríntios": {
+        "1": [
+            {
+                "titulo": "Panorama Geral",
+                "url": "https://youtu.be/XMpNr9M3gd4"
+            },
+            {
+                "titulo": "Capítulo 1",
+                "url": "https://youtu.be/0MVPk4R7yjI"
+            }
+        ],
+        "2": [
+            {
+                "titulo": "Capítulo 2",
+                "url": "https://youtu.be/LSNRDW31gl0"
+            }
+        ],
+        "3": [
+            {
+                "titulo": "Capítulo 3",
+                "url": "https://youtu.be/F0JLK1sk5jU"
+            }
+        ],
+        "4": [
+            {
+                "titulo": "Capítulo 4",
+                "url": "https://youtu.be/fy7yZO9D5l8"
+            }
+        ],
+        "5": [
+            {
+                "titulo": "Capítulo 5",
+                "url": "https://youtu.be/jYL3Qjg3nA4"
+            }
+        ],
+        "6": [
+            {
+                "titulo": "Capítulo 6",
+                "url": "https://youtu.be/C62fFVHJSe8"
+            }
+        ],
+        "7": [
+            {
+                "titulo": "Capítulo 7",
+                "url": "https://youtu.be/gs9Rhq-ZMeY"
+            }
+        ],
+        "8": [
+            {
+                "titulo": "Capítulo 8",
+                "url": "https://youtu.be/_mkuk9VpIJA"
+            }
+        ],
+        "9": [
+            {
+                "titulo": "Capítulo 9",
+                "url": "https://youtu.be/OneZib8y6K4"
+            }
+        ],
+        "10": [
+            {
+                "titulo": "Capítulo 10",
+                "url": "https://youtu.be/sLtpMBBsIe4"
+            }
+        ],
+        "11": [
+            {
+                "titulo": "Capítulo 11",
+                "url": "https://youtu.be/J7xxZ_8_qBs"
+            }
+        ],
+        "12": [
+            {
+                "titulo": "Capítulo 12",
+                "url": "https://youtu.be/u3e3Gv2Xx1M"
+            }
+        ],
+        "13": [
+            {
+                "titulo": "Capítulo 13",
+                "url": "https://youtu.be/BDcD3zfY2_Y"
+            }
+        ]
+    },
     "Gálatas": {
         "1": [
             {
