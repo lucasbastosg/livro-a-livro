@@ -227,7 +227,48 @@
     "Romanos": {},
     "1 Coríntios": {},
     "2 Coríntios": {},
-    "Gálatas": {},
+    "Gálatas": {
+        "1": [
+            {
+                "titulo": "Panorama Geral",
+                "url": "https://youtu.be/VS1pj2lcqp4"
+            },
+            {
+                "titulo": "Capítulo 1",
+                "url": "https://youtu.be/Zcepl2uT-0Q"
+            }
+        ],
+        "2": [
+            {
+                "titulo": "Capítulo 2",
+                "url": "https://youtu.be/VS9i6P-GdLg"
+            }
+        ],
+        "3": [
+            {
+                "titulo": "Capítulo 3",
+                "url": "https://youtu.be/JcsP71yhb6g"
+            }
+        ],
+        "4": [
+            {
+                "titulo": "Capítulo 4",
+                "url": "https://youtu.be/2aCKJbwnLK8"
+            }
+        ],
+        "5": [
+            {
+                "titulo": "Capítulo 5",
+                "url": "https://youtu.be/Ohaz_X_ZNe4"
+            }
+        ],
+        "6": [
+            {
+                "titulo": "Capítulo 6",
+                "url": "https://youtu.be/P6XurPRct0k"
+            }
+        ]
+    },
     "Efésios": {
         "1": [
             {
