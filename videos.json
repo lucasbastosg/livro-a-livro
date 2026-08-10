@@ -231,7 +231,42 @@
     "Efésios": {},
     "Filipenses": {},
     "Colossenses": {},
-    "1 Tessalonicenses": {},
+    "1 Tessalonicenses": {
+        "1": [
+            {
+                "titulo": "Panorama Geral",
+                "url": "https://youtu.be/friEnQAZXi4"
+            },
+            {
+                "titulo": "Capítulo 1",
+                "url": "https://youtu.be/alJ3vbJ1S9c"
+            }
+        ],
+        "2": [
+            {
+                "titulo": "Capítulo 2",
+                "url": "https://youtu.be/Xf2OZ5Frv0s"
+            }
+        ],
+        "3": [
+            {
+                "titulo": "Capítulo 3",
+                "url": "https://youtu.be/TKGfaEMCo5I"
+            }
+        ],
+        "4": [
+            {
+                "titulo": "Capítulo 4",
+                "url": "https://youtu.be/IKvKz4_jO4o"
+            }
+        ],
+        "5": [
+            {
+                "titulo": "Capítulo 5",
+                "url": "https://youtu.be/1d1NMZuySNM"
+            }
+        ]
+    },
     "2 Tessalonicenses": {
         "1": [
             {
