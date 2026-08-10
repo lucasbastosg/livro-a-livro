@@ -235,7 +235,30 @@
     "2 Tessalonicenses": {},
     "1 Timóteo": {},
     "2 Timóteo": {},
-    "Tito": {},
+    "Tito": {
+        "1": [
+            {
+                "titulo": "Panorama Geral",
+                "url": "https://youtu.be/AHUNm-OLt9c"
+            },
+            {
+                "titulo": "Capítulo 1",
+                "url": "https://youtu.be/eeOa-OYDenM"
+            }
+        ],
+        "2": [
+            {
+                "titulo": "Capítulo 2",
+                "url": "https://youtu.be/9CEBc0aERxM"
+            }
+        ],
+        "3": [
+            {
+                "titulo": "Capítulo 3",
+                "url": "https://youtu.be/gLkeOgbYaUE"
+            }
+        ]
+    },
     "Filemom": {
         "1": [
             {
