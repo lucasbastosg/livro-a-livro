@@ -232,7 +232,30 @@
     "Filipenses": {},
     "Colossenses": {},
     "1 Tessalonicenses": {},
-    "2 Tessalonicenses": {},
+    "2 Tessalonicenses": {
+        "1": [
+            {
+                "titulo": "Panorama Geral",
+                "url": "https://youtu.be/sWfTrtRrYeM"
+            },
+            {
+                "titulo": "Capítulo 1",
+                "url": "https://youtu.be/0PkTnwTqjKQ"
+            }
+        ],
+        "2": [
+            {
+                "titulo": "Capítulo 2",
+                "url": "https://youtu.be/jcmxXrb9Yo0"
+            }
+        ],
+        "3": [
+            {
+                "titulo": "Capítulo 3",
+                "url": "https://youtu.be/Y3cG6FtZuy8"
+            }
+        ]
+    },
     "1 Timóteo": {
         "1": [
             {
