@@ -321,7 +321,42 @@
             }
         ]
     },
-    "Tiago": {},
+    "Tiago": {
+        "1": [
+            {
+                "titulo": "Panorama Geral",
+                "url": "https://youtu.be/uLfGcze7G9g"
+            },
+            {
+                "titulo": "Capítulo 1",
+                "url": "https://youtu.be/65rZ2sQebQQ"
+            }
+        ],
+        "2": [
+            {
+                "titulo": "Capítulo 2",
+                "url": "https://youtu.be/uuOZBRoxVn0"
+            }
+        ],
+        "3": [
+            {
+                "titulo": "Capítulo 3",
+                "url": "https://youtu.be/_ZnVdCX0AoQ"
+            }
+        ],
+        "4": [
+            {
+                "titulo": "Capítulo 4",
+                "url": "https://youtu.be/3rqMS9R-0xE"
+            }
+        ],
+        "5": [
+            {
+                "titulo": "Capítulo 5",
+                "url": "https://youtu.be/WCsXQcBZkr4"
+            }
+        ]
+    },
     "1 Pedro": {},
     "2 Pedro": {},
     "1 João": {
