@@ -224,7 +224,128 @@
     },
     "João": {},
     "Atos": {},
-    "Romanos": {},
+    "Romanos": {
+        "1": [
+            {
+                "titulo": "Capítulo 1 - Parte 1",
+                "url": "https://youtu.be/pVIDOvPyOJg"
+            },
+            {
+                "titulo": "Capítulo 1 - Parte 2",
+                "url": "https://youtu.be/VsT7_vqBjWk"
+            }
+        ],
+        "2": [
+            {
+                "titulo": "Capítulo 2",
+                "url": ""
+            }
+        ],
+        "3": [
+            {
+                "titulo": "Capítulo 3",
+                "url": ""
+            }
+        ],
+        "4": [
+            {
+                "titulo": "Capítulo 4",
+                "url": "https://youtu.be/TRsa7p-VhTQ"
+            }
+        ],
+        "5": [
+            {
+                "titulo": "Capítulo 5 - Parte 1",
+                "url": "https://youtu.be/gWSHGTleJn0"
+            },
+            {
+                "titulo": "Capítulo 5 - Parte 2",
+                "url": "https://youtu.be/Q6LfD4abZfQ"
+            }
+        ],
+        "6": [
+            {
+                "titulo": "Capítulo 6",
+                "url": "https://youtu.be/xovg7edgZt0"
+            }
+        ],
+        "7": [
+            {
+                "titulo": "Capítulo 7 - Parte 1",
+                "url": "https://youtu.be/nhb3jk-XdKU"
+            },
+            {
+                "titulo": "Capítulo 7 - Parte 2",
+                "url": "https://youtu.be/jelKVa06w1A"
+            }
+        ],
+        "8": [
+            {
+                "titulo": "Capítulo 8 - Parte 1",
+                "url": "https://youtu.be/vqUI8HtkEx0"
+            },
+            {
+                "titulo": "Capítulo 8 - Parte 2",
+                "url": "https://youtu.be/r-Sa54_-kPw"
+            }
+        ],
+        "9": [
+            {
+                "titulo": "Capítulo 9",
+                "url": "https://youtu.be/SS37wAK0W2o"
+            }
+        ],
+        "10": [
+            {
+                "titulo": "Capítulo 10",
+                "url": "https://youtu.be/nwEQOuuqlaI"
+            }
+        ],
+        "11": [
+            {
+                "titulo": "Capítulo 11 - Parte 1",
+                "url": "https://youtu.be/_4Ptt1GnI4g"
+            },
+            {
+                "titulo": "Capítulo 11 - Parte 2",
+                "url": "https://youtu.be/snAjQvQHi58"
+            }
+        ],
+        "12": [
+            {
+                "titulo": "Capítulo 12 - Parte 1",
+                "url": "https://youtu.be/9UgSkBFAdtk"
+            },
+            {
+                "titulo": "Capítulo 12 - Parte 2",
+                "url": "https://youtu.be/ETV_elIDbpM"
+            }
+        ],
+        "13": [
+            {
+                "titulo": "Capítulo 13",
+                "url": "https://youtu.be/kbbBPcXSfF8"
+            }
+        ],
+        "14": [
+            {
+                "titulo": "Capítulo 14",
+                "url": "https://youtu.be/B-qS5iuaKUY"
+            }
+        ],
+        "15": [
+            {
+                "titulo": "Capítulo 15",
+                "url": "https://youtu.be/zmqIrlMXt48"
+            }
+        ],
+        "16": [
+            {
+                "titulo": "Capítulo 16",
+                "url": "https://youtu.be/miNmVgPB9vA"
+            }
+        ]
+    },
     "1 Coríntios": {
         "1": [
             {
