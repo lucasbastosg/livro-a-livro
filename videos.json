@@ -324,9 +324,66 @@
     "Tiago": {},
     "1 Pedro": {},
     "2 Pedro": {},
-    "1 João": {},
-    "2 João": {},
-    "3 João": {},
+    "1 João": {
+        "1": [
+            {
+                "titulo": "Panorama Geral",
+                "url": "https://youtu.be/oRz0bKkEh0Y"
+            },
+            {
+                "titulo": "Capítulo 1",
+                "url": "https://youtu.be/3tedRdL4p0w"
+            }
+        ],
+        "2": [
+            {
+                "titulo": "Capítulo 2",
+                "url": "https://youtu.be/VD5UO3Jgicw"
+            }
+        ],
+        "3": [
+            {
+                "titulo": "Capítulo 3",
+                "url": "https://youtu.be/BHE5rLAqois"
+            }
+        ],
+        "4": [
+            {
+                "titulo": "Capítulo 4",
+                "url": "https://youtu.be/37RNDwWLPsQ"
+            }
+        ],
+        "5": [
+            {
+                "titulo": "Capítulo 5",
+                "url": "https://youtu.be/4jT_srv2-3A"
+            }
+        ]
+    },
+    "2 João": {
+        "1": [
+            {
+                "titulo": "Panorama Geral",
+                "url": "https://youtu.be/oRz0bKkEh0Y"
+            },
+            {
+                "titulo": "Capítulo 1",
+                "url": "https://youtu.be/0XAbnl3HiWg"
+            }
+        ]
+    },
+    "3 João": {
+        "1": [
+            {
+                "titulo": "Panorama Geral",
+                "url": "https://youtu.be/oRz0bKkEh0Y"
+            },
+            {
+                "titulo": "Capítulo 1",
+                "url": "https://youtu.be/95wGeCjCz-k"
+            }
+        ]
+    },
     "Judas": {},
     "Apocalipse": {}
 }
