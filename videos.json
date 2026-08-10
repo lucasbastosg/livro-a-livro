@@ -1,0 +1,249 @@
+{
+    "Gênesis": {},
+    "Êxodo": {},
+    "Levítico": {},
+    "Números": {},
+    "Deuteronômio": {},
+    "Josué": {},
+    "Juízes": {},
+    "Rute": {},
+    "1 Samuel": {},
+    "2 Samuel": {},
+    "1 Reis": {},
+    "2 Reis": {},
+    "1 Crônicas": {},
+    "2 Crônicas": {},
+    "Esdras": {},
+    "Neemias": {},
+    "Ester": {},
+    "Jó": {},
+    "Salmos": {},
+    "Provérbios": {},
+    "Eclesiastes": {},
+    "Cânticos": {},
+    "Isaías": {},
+    "Jeremias": {},
+    "Lamentações": {},
+    "Ezequiel": {},
+    "Daniel": {},
+    "Oséias": {},
+    "Joel": {},
+    "Amós": {},
+    "Obadias": {},
+    "Jonas": {},
+    "Miquéias": {},
+    "Naum": {},
+    "Habacuque": {},
+    "Sofonias": {},
+    "Ageu": {},
+    "Zacarias": {},
+    "Malaquias": {},
+    "Mateus": {},
+    "Marcos": {},
+    "Lucas": {
+        "1": [
+            {
+                "titulo": "Panorama Geral",
+                "url": "https://youtu.be/z2zF83C_Emk"
+            },
+            {
+                "titulo": "Capítulo 1",
+                "url": "https://youtu.be/7OS_nz2oL7Q"
+            }
+        ],
+        "2": [
+            {
+                "titulo": "Capítulo 2",
+                "url": "https://youtu.be/1C5s5LFSV2k"
+            }
+        ],
+        "3": [
+            {
+                "titulo": "Capítulo 3",
+                "url": "https://youtu.be/gma5Mk93xOM"
+            }
+        ],
+        "4": [
+            {
+                "titulo": "Capítulo 4",
+                "url": "https://youtu.be/CX9zkwDy3Ws"
+            }
+        ],
+        "5": [
+            {
+                "titulo": "Capítulo 5",
+                "url": "https://youtu.be/wm__yZ3VPLw"
+            }
+        ],
+        "6": [
+            {
+                "titulo": "Capítulo 6",
+                "url": "https://youtu.be/TnPDrPcyDdE"
+            }
+        ],
+        "7": [
+            {
+                "titulo": "Capítulo 7",
+                "url": "https://youtu.be/d0FNRB_Ec4Q"
+            }
+        ],
+        "8": [
+            {
+                "titulo": "Capítulo 8 - Parte 1",
+                "url": "https://youtu.be/fE2K808RZeI"
+            },
+            {
+                "titulo": "Capítulo 8 - Parte 2",
+                "url": "https://youtu.be/Hm4D5azNV3A"
+            },
+            {
+                "titulo": "Capítulo 8 - Parte 3",
+                "url": "https://youtu.be/lePfdRTFwvA"
+            }
+        ],
+        "9": [
+            {
+                "titulo": "Capítulo 9 - Parte 1",
+                "url": "https://youtu.be/aHQ6jeukkS8"
+            },
+            {
+                "titulo": "Capítulo 9 - Parte 2",
+                "url": "https://youtu.be/rUtJSiR_Nr0"
+            }
+        ],
+        "10": [
+            {
+                "titulo": "Capítulo 10",
+                "url": "https://youtu.be/tROuPrIpXdE"
+            }
+        ],
+        "11": [
+            {
+                "titulo": "Capítulo 11",
+                "url": "https://youtu.be/MnvpEG3wsCc"
+            }
+        ],
+        "12": [
+            {
+                "titulo": "Capítulo 12 - Parte 1",
+                "url": "https://youtu.be/uZLiJwgzr84"
+            },
+            {
+                "titulo": "Capítulo 12 - Parte 2",
+                "url": "https://youtu.be/8pc2VJMntMI"
+            }
+        ],
+        "13": [
+            {
+                "titulo": "Capítulo 13",
+                "url": "https://youtu.be/13hhkVLh5bs"
+            }
+        ],
+        "14": [
+            {
+                "titulo": "Capítulo 14",
+                "url": "https://youtu.be/bzJR-f64U58"
+            }
+        ],
+        "15": [
+            {
+                "titulo": "Capítulo 15 - Parte 1",
+                "url": "https://youtu.be/ip7FtQUJ6lg"
+            },
+            {
+                "titulo": "Capítulo 15 - Parte 2",
+                "url": "https://youtu.be/U9FewAY4OeQ"
+            }
+        ],
+        "16": [
+            {
+                "titulo": "Capítulo 16 - Parte 1",
+                "url": "https://youtu.be/zZmEXfqmKds"
+            },
+            {
+                "titulo": "Capítulo 16 - Parte 2",
+                "url": "https://youtu.be/sdQP9HKUIMg"
+            }
+        ],
+        "17": [
+            {
+                "titulo": "Capítulo 17 - Parte 1",
+                "url": "https://youtu.be/aeGT2i9sZBY"
+            },
+            {
+                "titulo": "Capítulo 17 - Parte 2",
+                "url": "https://youtu.be/OwmZRZIWkMo"
+            }
+        ],
+        "18": [
+            {
+                "titulo": "Capítulo 18",
+                "url": "https://youtu.be/2fAr3vocqw4"
+            }
+        ],
+        "19": [
+            {
+                "titulo": "Capítulo 19",
+                "url": "https://youtu.be/Y13AnCrU-qs"
+            }
+        ],
+        "20": [
+            {
+                "titulo": "Capítulo 20",
+                "url": "https://youtu.be/vhTboCHTfp0"
+            }
+        ],
+        "21": [
+            {
+                "titulo": "Capítulo 21",
+                "url": ""
+            }
+        ],
+        "22": [
+            {
+                "titulo": "Capítulo 22 - Parte 1",
+                "url": "https://youtu.be/uZEwN8chUfs"
+            },
+            {
+                "titulo": "Capítulo 22 - Parte 2",
+                "url": "https://youtu.be/l4h0y_XFc0I"
+            }
+        ],
+        "23": [
+            {
+                "titulo": "Capítulo 23",
+                "url": ""
+            }
+        ],
+        "24": [
+            {
+                "titulo": "Capítulo 24",
+                "url": ""
+            }
+        ]
+    },
+    "João": {},
+    "Atos": {},
+    "Romanos": {},
+    "1 Coríntios": {},
+    "2 Coríntios": {},
+    "Gálatas": {},
+    "Efésios": {},
+    "Filipenses": {},
+    "Colossenses": {},
+    "1 Tessalonicenses": {},
+    "2 Tessalonicenses": {},
+    "1 Timóteo": {},
+    "2 Timóteo": {},
+    "Tito": {},
+    "Filemom": {},
+    "Hebreus": {},
+    "Tiago": {},
+    "1 Pedro": {},
+    "2 Pedro": {},
+    "1 João": {},
+    "2 João": {},
+    "3 João": {},
+    "Judas": {},
+    "Apocalipse": {}
+}

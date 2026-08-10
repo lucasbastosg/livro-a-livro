@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Livro a Livro — Estudos da Bíblia capítulo por capítulo</title>
+  <meta name="description"
+    content="Assista aos estudos do projeto Livro a Livro: navegue pelo Antigo e Novo Testamento e abra o vídeo de cada capítulo da Bíblia." />
+  <meta property="og:title" content="Livro a Livro — Estudos da Bíblia capítulo por capítulo" />
+  <meta property="og:description"
+    content="Navegue pelos 66 livros da Bíblia e assista ao estudo em vídeo de cada capítulo gravado." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="topo">
+    <div class="wrap topo-inner">
+      <div class="marca">
+        <span class="marca-selo">LL</span>
+        <div>
+          <h1>Livro a Livro</h1>
+          <p class="marca-sub">Estudos da Bíblia, capítulo por capítulo</p>
+        </div>
+      </div>
+      <div class="progresso" id="progresso" aria-live="polite">
+        <span class="progresso-num" id="progresso-num">—</span>
+        <span class="progresso-txt">capítulos disponíveis</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap conteudo">
+    <div class="controles">
+      <label class="busca">
+        <span class="sr-only">Buscar livro</span>
+        <input id="busca" type="search" placeholder="Buscar livro (ex.: Romanos, Efésios...)" autocomplete="off" />
+      </label>
+      <label class="filtro">
+        <input type="checkbox" id="somente-gravados" />
+        <span>Mostrar somente livros com gravação</span>
+      </label>
+    </div>
+
+    <p class="aviso" id="estado">Carregando...</p>
+
+    <section class="testamento" id="sec-antigo" hidden>
+      <h2 class="testamento-titulo">Antigo Testamento</h2>
+      <div class="livros" id="lista-antigo"></div>
+    </section>
+
+    <section class="testamento" id="sec-novo" hidden>
+      <h2 class="testamento-titulo">Novo Testamento</h2>
+      <div class="livros" id="lista-novo"></div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="wrap">
+      <p>Projeto Livro a Livro · IBN-Family.</p>
+      <p>© 2026 Lucas Bastos. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <div class="modal" id="modal" hidden>
+    <div class="modal-fundo" data-fechar></div>
+    <div class="modal-caixa" role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
+      <div class="modal-topo">
+        <h3 id="modal-titulo">Capítulo</h3>
+        <button class="botao-fechar" type="button" data-fechar aria-label="Fechar">×</button>
+      </div>
+      <div class="modal-video">
+        <iframe id="player" title="Vídeo do estudo"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+      <div class="modal-partes" id="modal-partes"></div>
+      <div class="modal-acoes">
+        <a id="link-youtube" class="botao-primario" href="#" target="_blank" rel="noopener noreferrer">
+          Abrir no YouTube
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
