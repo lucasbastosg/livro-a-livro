@@ -123,7 +123,9 @@
     var totalCaps = 0;
     var totalGravados = 0;
 
-    ["antigo", "novo"].forEach(function (chave) {
+    //Para exibir o Velho testamento descomentar a linha abaixo:
+    //["antigo", "novo"].forEach(function (chave) {
+    ["novo"].forEach(function (chave) {
       var alvo = document.getElementById("lista-" + chave);
       var secao = document.getElementById("sec-" + chave);
       alvo.innerHTML = "";
