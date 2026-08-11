@@ -1,4 +1,4 @@
-name: Testar Caminhos FTP
+name: Testar FTP
 
 on:
   push:
@@ -13,21 +13,18 @@ jobs:
       - name: Instalar LFTP
         run: sudo apt-get update && sudo apt-get install -y lftp
 
-      - name: Testar caminhos FTP
+      - name: Testar diretório
         run: |
           lftp -c "
             set ftp:passive-mode true;
             set ssl:verify-certificate no;
             open -u '${{ secrets.FTP_USERNAME }}','${{ secrets.FTP_PASSWORD }}' ftp://ftp.ibnfamily.com.br;
 
-            echo '=== DIRETORIO ATUAL ===';
-            pwd;
+            echo '=== RAIZ ===';
+            ls -la;
 
-            echo '=== TESTE 1: /www ===';
-            cd /www;
+            echo '=== LIVRO-A-LIVRO ===';
+            cd livro-a-livro;
             pwd;
-
-            echo '=== TESTE 2: /www/livro-a-livro ===';
-            cd /www/livro-a-livro;
-            pwd;
+            ls -la;
           "
