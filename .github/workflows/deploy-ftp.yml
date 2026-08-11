@@ -13,7 +13,7 @@ jobs:
       - name: Instalar LFTP
         run: sudo apt-get update && sudo apt-get install -y lftp
 
-      - name: Testar acesso ao diretório
+      - name: Verificar index.php
         run: |
           lftp -c "
             set ftp:passive-mode true;
@@ -21,5 +21,5 @@ jobs:
             set net:timeout 10;
             set net:max-retries 1;
             open -u '${{ secrets.FTP_USERNAME }}','${{ secrets.FTP_PASSWORD }}' ftp://ftp.ibnfamily.com.br;
-            stat index.php;
+            ls index.php;
           "
