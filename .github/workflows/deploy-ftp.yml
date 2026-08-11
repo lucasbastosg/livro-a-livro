@@ -1,27 +1,9 @@
-name: Deploy Livro a Livro
-
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Baixar projeto
-        uses: actions/checkout@v4
-
-      - name: Instalar LFTP
-        run: sudo apt-get update && sudo apt-get install -y lftp
-
-      - name: Enviar arquivos para o servidor
-        run: |
-          lftp -c "
-            set ftp:passive-mode true;
-            set ftp:ssl-force false;
-            set ssl:verify-certificate no;
-            open -u '${{ secrets.FTP_USERNAME }}','${{ secrets.FTP_PASSWORD }}' ftp://ftp.ibnfamily.com.br;
-            mirror --reverse --verbose ./ /www/livro-a-livro/;
-          "
+- name: Descobrir diretório FTP
+  run: |
+    lftp -c "
+      set ftp:passive-mode true;
+      set ssl:verify-certificate no;
+      open -u '${{ secrets.FTP_USERNAME }}','${{ secrets.FTP_PASSWORD }}' ftp://ftp.ibnfamily.com.br;
+      pwd;
+      ls;
+    "
