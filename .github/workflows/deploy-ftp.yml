@@ -21,6 +21,7 @@ jobs:
           lftp -c "
             set ftp:passive-mode true;
             set ftp:ssl-force false;
+            set ssl:verify-certificate no;
             open -u '${{ secrets.FTP_USERNAME }}','${{ secrets.FTP_PASSWORD }}' ftp://ftp.ibnfamily.com.br;
             mirror --reverse --verbose ./ /www/livro-a-livro/;
           "
