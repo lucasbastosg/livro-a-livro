@@ -1,4 +1,4 @@
-name: Testar FTP
+name: Descobrir Home FTP
 
 on:
   push:
@@ -13,18 +13,21 @@ jobs:
       - name: Instalar LFTP
         run: sudo apt-get update && sudo apt-get install -y lftp
 
-      - name: Testar diretório
+      - name: Descobrir home FTP
         run: |
           lftp -c "
             set ftp:passive-mode true;
             set ssl:verify-certificate no;
             open -u '${{ secrets.FTP_USERNAME }}','${{ secrets.FTP_PASSWORD }}' ftp://ftp.ibnfamily.com.br;
 
-            echo '=== RAIZ ===';
-            ls -la;
-
-            echo '=== LIVRO-A-LIVRO ===';
-            cd livro-a-livro;
+            echo '=== PWD ===';
             pwd;
-            ls -la;
+
+            echo '=== LISTAGEM ===';
+            cls -la;
+
+            echo '=== HOME ===';
+            cd ~;
+            pwd;
+            cls -la;
           "
