@@ -16,7 +16,8 @@ jobs:
       - name: Enviar para o servidor FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTP_SERVER }}
+          server: ftp.ibnfamily.com.br
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /www/livro-a-livro/
+          protocol: ftps
+          port: 21
