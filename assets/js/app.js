@@ -226,7 +226,7 @@
     });
   }
 
-  Promise.all([carregar("biblia.json"), carregar("videos.json")])
+  Promise.all([carregar("assets/json/biblia.json"), carregar("assets/json/videos.json")])
     .then(function (res) {
       estado.livros = res[0];
       estado.videos = res[1] || {};
