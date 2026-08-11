@@ -1,4 +1,4 @@
-name: Deploy Livro a Livro
+name: Testar Caminhos FTP
 
 on:
   push:
@@ -6,19 +6,28 @@ on:
       - main
 
 jobs:
-  descobrir-ftp:
+  testar:
     runs-on: ubuntu-latest
 
     steps:
       - name: Instalar LFTP
         run: sudo apt-get update && sudo apt-get install -y lftp
 
-      - name: Descobrir diretório FTP
+      - name: Testar caminhos FTP
         run: |
           lftp -c "
             set ftp:passive-mode true;
             set ssl:verify-certificate no;
             open -u '${{ secrets.FTP_USERNAME }}','${{ secrets.FTP_PASSWORD }}' ftp://ftp.ibnfamily.com.br;
+
+            echo '=== DIRETORIO ATUAL ===';
             pwd;
-            ls;
+
+            echo '=== TESTE 1: /www ===';
+            cd /www;
+            pwd;
+
+            echo '=== TESTE 2: /www/livro-a-livro ===';
+            cd /www/livro-a-livro;
+            pwd;
           "
