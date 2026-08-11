@@ -13,12 +13,14 @@ jobs:
       - name: Baixar projeto
         uses: actions/checkout@v4
 
-      - name: Enviar para o servidor FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ftp.ibnfamily.com.br
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftp
-          port: 21
-          server-dir: /www/livro-a-livro/
+      - name: Instalar LFTP
+        run: sudo apt-get update && sudo apt-get install -y lftp
+
+      - name: Enviar arquivos para o servidor
+        run: |
+          lftp -c "
+            set ftp:passive-mode true;
+            set ftp:ssl-force false;
+            open -u '${{ secrets.FTP_USERNAME }}','${{ secrets.FTP_PASSWORD }}' ftp://ftp.ibnfamily.com.br;
+            mirror --reverse --verbose ./ /www/livro-a-livro/;
+          "
