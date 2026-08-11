@@ -1,9 +1,24 @@
-- name: Descobrir diretório FTP
-  run: |
-    lftp -c "
-      set ftp:passive-mode true;
-      set ssl:verify-certificate no;
-      open -u '${{ secrets.FTP_USERNAME }}','${{ secrets.FTP_PASSWORD }}' ftp://ftp.ibnfamily.com.br;
-      pwd;
-      ls;
-    "
+name: Deploy Livro a Livro
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  descobrir-ftp:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Instalar LFTP
+        run: sudo apt-get update && sudo apt-get install -y lftp
+
+      - name: Descobrir diretório FTP
+        run: |
+          lftp -c "
+            set ftp:passive-mode true;
+            set ssl:verify-certificate no;
+            open -u '${{ secrets.FTP_USERNAME }}','${{ secrets.FTP_PASSWORD }}' ftp://ftp.ibnfamily.com.br;
+            pwd;
+            ls;
+          "
