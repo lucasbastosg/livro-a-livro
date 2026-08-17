@@ -201,22 +201,26 @@
         ],
         "22": [
             {
+                "speaker": "Paulo Mortari",
                 "titulo": "Capítulo 22 - Parte 1",
                 "url": "https://youtu.be/uZEwN8chUfs"
             },
             {
+                "speaker": "Paulo Mortari",
                 "titulo": "Capítulo 22 - Parte 2",
                 "url": "https://youtu.be/l4h0y_XFc0I"
             }
         ],
         "23": [
             {
+                "speaker": "Sandra Salbego",
                 "titulo": "Capítulo 23",
                 "url": "https://youtu.be/zJCvDa2IYEA"
             }
         ],
         "24": [
             {
+                "speaker": "Sandra Salbego",
                 "titulo": "Capítulo 24",
                 "url": "",
                 "disable": "https://youtu.be/oJl3cD_S3os"
