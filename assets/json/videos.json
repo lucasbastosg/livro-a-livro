@@ -212,13 +212,14 @@
         "23": [
             {
                 "titulo": "Capítulo 23",
-                "url": ""
+                "url": "https://youtu.be/zJCvDa2IYEA"
             }
         ],
         "24": [
             {
                 "titulo": "Capítulo 24",
-                "url": ""
+                "url": "",
+                "disable": "https://youtu.be/oJl3cD_S3os"
             }
         ]
     },
