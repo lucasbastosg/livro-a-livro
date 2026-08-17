@@ -227,7 +227,27 @@
             }
         ]
     },
-    "João": {},
+    "João": {
+        "1": [
+            {
+                "speaker": "Isadora Enderle",
+                "titulo": "Panorama Geral",
+                "url": ""
+            },
+            {
+                "speaker": "Paulo Mortari",
+                "titulo": "Capítulo 1",
+                "url": ""
+            }
+        ],
+        "2": [
+            {
+                "speaker": "Paulo Mortari",
+                "titulo": "Capítulo 2",
+                "url": ""
+            }
+        ]
+    },
     "Atos": {},
     "Romanos": {
         "1": [
