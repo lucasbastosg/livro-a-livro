@@ -1,0 +1,160 @@
+/* Estilos exclusivos do painel admin.html */
+
+.admin-bloco {
+    background: var(--papel-2);
+    border: 1px solid var(--linha);
+    border-radius: 8px;
+    box-shadow: var(--sombra);
+    padding: 1.1rem 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.admin-titulo {
+    font-family: Fraunces, Georgia, serif;
+    font-size: 1rem;
+    margin: 0 0 0.9rem;
+    color: var(--brasa);
+}
+
+.admin-arquivo {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    flex-wrap: wrap;
+}
+
+.admin-status {
+    font-size: 0.85rem;
+    color: var(--tinta-suave);
+}
+
+.admin-linha {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.admin-form {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+.admin-campo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    font-size: 0.85rem;
+    color: var(--tinta-suave);
+    flex: 1 1 220px;
+}
+
+.admin-campo select,
+.admin-campo input {
+    padding: 0.55rem 0.7rem;
+    border: 1px solid var(--linha);
+    border-radius: 6px;
+    background: var(--papel-2);
+    font: inherit;
+    color: var(--tinta);
+}
+
+.admin-campo select:focus,
+.admin-campo input:focus {
+    outline: 2px solid var(--brasa-clara);
+    outline-offset: 1px;
+}
+
+.botao-secundario {
+    display: inline-block;
+    padding: 0.55rem 1rem;
+    border-radius: 6px;
+    background: none;
+    border: 1px solid var(--linha);
+    color: var(--tinta);
+    font: inherit;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.botao-secundario:disabled,
+.botao-primario:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.admin-lista-partes {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.admin-lista-vazia {
+    color: var(--tinta-suave);
+    font-size: 0.88rem;
+}
+
+.admin-parte {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0.6rem 0.8rem;
+    border: 1px solid var(--linha);
+    border-radius: 6px;
+    background: #f2ece1;
+    font-size: 0.85rem;
+    cursor: grab;
+}
+
+.admin-parte.arrastando {
+    opacity: 0.5;
+}
+
+.admin-parte-alca {
+    color: var(--tinta-suave);
+    font-size: 1.1rem;
+    line-height: 1;
+    user-select: none;
+}
+
+.admin-parte-info {
+    flex: 1;
+}
+
+.admin-parte-info b {
+    font-family: Fraunces, Georgia, serif;
+}
+
+.admin-parte-info small {
+    display: block;
+    color: var(--tinta-suave);
+}
+
+.admin-parte-acoes {
+    display: flex;
+    gap: 0.6rem;
+    flex-shrink: 0;
+}
+
+.admin-parte-editar {
+    border: 0;
+    background: none;
+    color: var(--oliva);
+    cursor: pointer;
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+.admin-parte-remover {
+    border: 0;
+    background: none;
+    color: var(--brasa);
+    cursor: pointer;
+    font-size: 0.85rem;
+    white-space: nowrap;
+}

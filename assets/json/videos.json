@@ -38,7 +38,9 @@
     "Ageu": {},
     "Zacarias": {},
     "Malaquias": {},
-    "Mateus": {},
+    "Mateus": {
+        "1": []
+    },
     "Marcos": {},
     "Lucas": {
         "1": [
@@ -201,28 +203,25 @@
         ],
         "22": [
             {
-                "speaker": "Paulo Mortari",
                 "titulo": "Capítulo 22 - Parte 1",
                 "url": "https://youtu.be/uZEwN8chUfs"
             },
             {
-                "speaker": "Paulo Mortari",
                 "titulo": "Capítulo 22 - Parte 2",
                 "url": "https://youtu.be/l4h0y_XFc0I"
             }
         ],
         "23": [
             {
-                "speaker": "Sandra Salbego",
                 "titulo": "Capítulo 23",
                 "url": "https://youtu.be/zJCvDa2IYEA"
             }
         ],
         "24": [
             {
-                "speaker": "Sandra Salbego",
                 "titulo": "Capítulo 24",
                 "url": "",
+                "speaker": "Sandra Salbego",
                 "disable": "https://youtu.be/oJl3cD_S3os"
             }
         ]
@@ -230,21 +229,21 @@
     "João": {
         "1": [
             {
-                "speaker": "Isadora Enderle",
                 "titulo": "Panorama Geral",
-                "url": ""
+                "url": "",
+                "speaker": "Isadora Enderle"
             },
             {
-                "speaker": "Paulo Mortari",
                 "titulo": "Capítulo 1",
-                "url": ""
+                "url": "",
+                "speaker": "Paulo Mortari"
             }
         ],
         "2": [
             {
-                "speaker": "Paulo Mortari",
                 "titulo": "Capítulo 2",
-                "url": ""
+                "url": "",
+                "speaker": "Paulo Mortari"
             }
         ]
     },

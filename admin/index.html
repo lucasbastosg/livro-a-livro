@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Admin - Livro a Livro</title>
+    <link rel="icon" href="https://ibnfamily.com.br/wp-content/uploads/2024/03/cropped-favicon-ibn-32x32.png"
+        type="image/x-icon" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="stylesheet" href="admin.css" />
+</head>
+
+<body>
+    <header class="topo">
+        <div class="wrap topo-inner">
+            <div class="marca">
+                <div>
+                    <h1>Livro a Livro</h1>
+                    <p class="marca-sub">Painel de administração de vídeos</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="wrap conteudo">
+        <p class="aviso" id="status-arquivo">Carregando assets/json/videos.json...</p>
+
+        <section class="admin-bloco">
+            <h2 class="admin-titulo">1. Livro e capítulo</h2>
+            <div class="admin-linha">
+                <label class="admin-campo">
+                    <span>Livro</span>
+                    <select id="select-livro" disabled>
+                        <option value="">Carregando...</option>
+                    </select>
+                </label>
+                <label class="admin-campo">
+                    <span>Capítulo</span>
+                    <select id="select-capitulo" disabled>
+                        <option value="">—</option>
+                    </select>
+                </label>
+            </div>
+        </section>
+
+        <section class="admin-bloco">
+            <h2 class="admin-titulo">2. Partes já cadastradas</h2>
+            <ul class="admin-lista-partes" id="lista-partes">
+                <li class="admin-lista-vazia">Selecione um livro e capítulo.</li>
+            </ul>
+        </section>
+
+        <section class="admin-bloco">
+            <h2 class="admin-titulo">3. Adicionar parte</h2>
+            <form class="admin-form" id="form-parte">
+                <label class="admin-campo">
+                    <span>Speaker (opcional)</span>
+                    <input type="text" id="campo-speaker" placeholder="Ex.: Paulo Mortari" />
+                </label>
+                <label class="admin-campo">
+                    <span>Título</span>
+                    <input type="text" id="campo-titulo" placeholder="Ex.: Capítulo 5" required />
+                </label>
+                <label class="admin-campo">
+                    <span>URL do vídeo (opcional)</span>
+                    <input type="url" id="campo-url" placeholder="https://youtu.be/..." />
+                </label>
+                <label class="admin-campo">
+                    <span>Disable (opcional, URL desativada)</span>
+                    <input type="url" id="campo-disable" placeholder="https://youtu.be/..." />
+                </label>
+                <button type="submit" class="botao-primario" id="btn-adicionar" disabled>Adicionar parte</button>
+                <button type="button" class="botao-secundario" id="btn-cancelar-edicao" hidden>Cancelar edição</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="admin.js"></script>
+</body>
+
+</html>
