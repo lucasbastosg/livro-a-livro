@@ -1,5 +1,12 @@
 {
-    "Gênesis": {},
+    "Gênesis": {
+        "1": [
+            {
+                "titulo": "Panorama Geral",
+                "url": ""
+            }
+        ]
+    },
     "Êxodo": {},
     "Levítico": {},
     "Números": {},
@@ -220,9 +227,8 @@
         "24": [
             {
                 "titulo": "Capítulo 24",
-                "url": "",
-                "speaker": "Sandra Salbego",
-                "disable": "https://youtu.be/oJl3cD_S3os"
+                "url": "https://youtu.be/oJl3cD_S3os",
+                "speaker": "Sandra Salbego"
             }
         ]
     },
