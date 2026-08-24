@@ -173,6 +173,7 @@ body {
     border-radius: 8px;
     box-shadow: var(--sombra);
     overflow: hidden;
+    scroll-margin-top: 3rem;
 }
 
 .livro.aberto {
